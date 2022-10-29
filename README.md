@@ -24,7 +24,9 @@ gcloud container clusters get-credentials private-cluster --zone us-central1-a
 ```
 helm install myapp ./Helm
 ```
-!
+![Screenshot%20from%202022-10-29%2022-41-49.png]https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot%20from%202022-10-29%2023-43-01.png
+
+
 ## Connect using load balancer public IP
-![Screenshot%20from%202022-10-29%2022-35-42](https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot%20from%202022-10-29%2022-35-42.png)
+![Screenshot%20from%202022-10-29%2022-35-42](https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot from 2022-10-29 23-43-01.png)
 ]
