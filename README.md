@@ -4,7 +4,7 @@ Deploy a python web application on GKE. Infrastructure built using terraform. Us
 ## Build image and upload to GCR
 ```
 docker build -t <img-name> gcr.io/<project-id>/<img-name> .
-gcloud auth configure-docker   # to add 
+gcloud auth configure-docker   # to autherize docker to push image
 docker push gcr.io/<project-id>/<img-name>
 ```
 ## Build infrastructure on GCP
@@ -15,6 +15,10 @@ terraform apply
 ```
 
 ## Connect to private GKE cluster through private vm
+# terraform three module 
+1- network: create two subnet 
+2- bastion only can connected to eks
+3- eks create cluster and registery
 ```
 gcloud compute ssh management-instance --tunnel-through-iap
 gcloud container clusters get-credentials private-cluster --zone us-central1-a
