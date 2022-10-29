@@ -9,7 +9,7 @@ docker push gcr.io/<project-id>/<img-name>
 ```
 ## Build infrastructure on GCP
 ```
-cd infrastructure/
+cd terraform/
 terraform init
 terraform apply
 ```
