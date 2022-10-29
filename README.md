@@ -13,16 +13,18 @@ cd terraform/
 terraform init
 terraform apply
 ```
+
 ## Connect to private GKE cluster through private vm
 ```
 gcloud compute ssh management-instance --tunnel-through-iap
 gcloud container clusters get-credentials private-cluster --zone us-central1-a
 ```
+![Screenshot%20from%202022-10-29%2022-41-49.png](https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot%20from%202022-10-29%2022-41-49.png)
 ## Deploy app to GKE cluster and expose deploymnet through load balancer
 ```
 helm install myapp ./Helm
 ```
 !
 ## Connect using load balancer public IP
-![![Screenshot%20from%202022-10-29%2022-35-42](https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot%20from%202022-10-29%2022-35-42.png)
+![Screenshot%20from%202022-10-29%2022-35-42](https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot%20from%202022-10-29%2022-35-42.png)
 ]
