@@ -24,5 +24,5 @@ helm install myapp ./Helm
 ```
 !
 ## Connect using load balancer public IP
-![![Screenshot from 2022-05-09 00-51-58](https://user-images.githubusercontent.com/31425172/167319303-b08b3b72-88b1-473c-9d6a-7300d3d5676c.png)
+![![Screenshot%20from%202022-10-29%2022-35-42](https://github.com/Alialshemy/GCP_Project/blob/main/images/Screenshot%20from%202022-10-29%2022-35-42.png)
 ]
