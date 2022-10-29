@@ -17,7 +17,7 @@ terraform apply
 ## Connect to private GKE cluster through private vm
 # terraform three module 
 1- network: create two subnet </br>
-2- bastion only can connected to eks</br>
+2- bastion create bastion vm  only can connected to eks</br>
 3- eks create cluster and registery
 ```
 gcloud compute ssh management-instance --tunnel-through-iap
